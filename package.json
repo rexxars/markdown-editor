@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint .",
-    "dev": "webpack --watch --progress --colors",
+    "dev": "webpack-dev-server --content-base dist/ --port 7799",
     "build": "NODE_ENV=production webpack -p"
   },
   "repository": {
@@ -28,7 +28,9 @@
     "babel-preset-react": "^6.3.13",
     "eslint": "^1.10.3",
     "eslint-config-vaffel": "^3.0.0",
-    "webpack": "^1.12.9"
+    "eslint-plugin-react": "^3.13.1",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
     "lodash.debounce": "^3.1.1",

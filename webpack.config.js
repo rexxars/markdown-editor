@@ -3,7 +3,7 @@
 var path = require('path');
 
 var config = {
-    entry: path.join(__dirname, 'app', 'index.js'),
+    entry: path.join(__dirname, 'app', 'app.js'),
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'bundle.js'
