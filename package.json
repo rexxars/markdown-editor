@@ -4,7 +4,9 @@
   "description": "Simple markdown editor with live preview, using react-markdown",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "dev": "webpack --watch --progress --colors",
+    "build": "NODE_ENV=production webpack -p"
   },
   "repository": {
     "type": "git",
@@ -29,8 +31,9 @@
     "webpack": "^1.12.9"
   },
   "dependencies": {
+    "lodash.debounce": "^3.1.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
-    "react-markdown": "^1.2.0"
+    "react-markdown": "^1.2.1"
   }
 }
