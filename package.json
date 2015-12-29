@@ -1,0 +1,36 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "Simple markdown editor with live preview, using react-markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/markdown-editor.git"
+  },
+  "keywords": [
+    "markdown",
+    "editor",
+    "preview",
+    "react"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/markdown-editor/issues"
+  },
+  "homepage": "https://github.com/rexxars/markdown-editor#readme",
+  "devDependencies": {
+    "babel-preset-react": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-config-vaffel": "^3.0.0",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-markdown": "^1.2.0"
+  }
+}
