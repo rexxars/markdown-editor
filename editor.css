@@ -38,3 +38,16 @@ html, body {
 .editor, .preview {
     width: 50%;
 }
+
+.preview code[class^="language-"] {
+    display: block;
+    background: #f8f8f8;
+    padding: 0.5em;
+    overflow-x: auto;
+}
+
+.preview blockquote {
+    margin: 0;
+    padding-left: 1.5em;
+    border-left: 0.5em #ccc solid;
+}
