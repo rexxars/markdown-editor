@@ -7,7 +7,7 @@ Super-simple markdown editor with live preview, using [react-markdown](https://g
 See the online demo at http://rexxars.github.io/markdown-editor/, or if you want to run it locally:
 
 ```bash
-git clone https://github.com/rexxars/react-markdown.git
+git clone https://github.com/rexxars/markdown-editor.git
 cd markdown-editor
 npm install
 npm run dev
